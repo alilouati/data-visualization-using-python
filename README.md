@@ -23,6 +23,8 @@ Chapter_5/  Chapter_5_Streamlit_PhD.pdf           Ch5_Streamlit_Apps.ipynb   202
 ## Live dashboard (Chapter 5)
 `Chapter_5/dashboard/streamlit_app.py` is the Al-Kharj road-accidents dashboard from the Chapter 5 notebook, ready to run online on Streamlit Community Cloud (main file path `Chapter_5/dashboard/streamlit_app.py`). Run it on your computer with `streamlit run Chapter_5/dashboard/streamlit_app.py`.
 
+**Easiest way for students:** open [`Chapter_5/Open_the_Dashboard.ipynb`](https://colab.research.google.com/github/alilouati/data-visualization-using-python/blob/main/Chapter_5/Open_the_Dashboard.ipynb) in Colab and click *Runtime → Run all*. The dashboard opens under Step 2, with a public-link plan B and plain charts as plan C.
+
 ## Extra lab: Can we trust an AI's explanation?
 `LLM_Explanation_Lab/` holds a short, beginner-friendly Colab lab: a toy traffic junction, an AI advisor that explains its choices, a check of whether those explanations are true, and a safety shield. [Open in Colab](https://colab.research.google.com/github/alilouati/data-visualization-using-python/blob/main/LLM_Explanation_Lab/LLM_Explanation_Lab.ipynb)
 
