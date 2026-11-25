@@ -1,0 +1,4 @@
+instructor_only/
+*.pptx
+.ipynb_checkpoints/
+__pycache__/
