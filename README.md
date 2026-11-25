@@ -20,6 +20,9 @@ Chapter_5/  Chapter_5_Streamlit_PhD.pdf           Ch5_Streamlit_Apps.ipynb   202
 | 4 | Chapter_4_Dashboard_PhD.pdf | Ch4_Dashboards_Dash_Bokeh.ipynb | Dash inline in Colab, KPI cards, chained callbacks, cross-filtering, `State`, unit-tested callbacks, serverless Bokeh (CustomJS), ipywidgets |
 | 5 | Chapter_5_Streamlit_PhD.pdf | Ch5_Streamlit_Apps.ipynb | Streamlit from Colab (Cloudflare tunnel / Colab proxy), AppTest automated tests, caching & session state, GRAALI replica, Al-Kharj 2022 road-accident app with train/test split, leakage check, silhouette, deployment |
 
+## Extra lab: Can we trust an AI's explanation?
+`LLM_Explanation_Lab/` holds a short, beginner-friendly Colab lab: a toy traffic junction, an AI advisor that explains its choices, a check of whether those explanations are true, and a safety shield. [Open in Colab](https://colab.research.google.com/github/alilouati/data-visualization-using-python/blob/main/LLM_Explanation_Lab/LLM_Explanation_Lab.ipynb)
+
 ## How students open a notebook in Colab
 **Option 1 — upload (works today):** go to https://colab.research.google.com → *File → Upload notebook* → choose the `.ipynb`. Or put the files in Google Drive and double-click → *Open with Google Colaboratory*.
 
