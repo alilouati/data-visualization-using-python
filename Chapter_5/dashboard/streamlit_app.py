@@ -46,7 +46,10 @@ with tab1:
     st.plotly_chart(px.line(ts, x="Date", y=[feature, "rolling"], title=f"{feature} per day and {window}-day mean"), width="stretch")
     wd = df.assign(weekday=df.Date.dt.day_name())
     st.plotly_chart(px.box(wd, x="weekday", y=feature, category_orders={"weekday": WEEK}, title=f"{feature} by weekday"), width="stretch")
-    st.dataframe(df.describe().T.round(2))
+    st.write("Summary of each numeric column (CV = std / mean, how much it changes from day to day):")
+    stats = df[num].describe().T
+    stats["CV"] = stats["std"] / stats["mean"]
+    st.dataframe(stats.round(2))
 
 with tab2:
     default_t = num.index("CarAccidentsWithinCity") if "CarAccidentsWithinCity" in num else 0
